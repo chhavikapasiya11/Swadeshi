@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("https://img.freepik.com/premium-vector/diwali-seamless-pattern-with-indian-ornament-flower-leaf_87850-187.jpg");
+}
+.container h1{
+    font-size: 75px;
+    font-weight: 1200px;
+    position: relative;
+    left:10px;
+    color: rgb(101, 24, 37);
+    
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-image:radial-gradient(white,rgb(198, 97, 97))
+    
+}
+nav ul{
+    display: flex;
+    position: relative;
+    right: 100px;
+    gap: 60px;
+    top:30px;
+
+}
+nav ul li{
+    list-style:none;
+    font-size: 30px;
+    color: rgb(101, 24, 37); 
+    font-weight: 700;
+}
+
+.one{
+    padding-top: 10px;
+    font-size: 43px;
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px; 
+    border-radius: 5px; 
+}
+.two{
+    padding-top: 10px;
+    font-size: 43px;
+    display: flex;
+    justify-content: center;
+    padding: 10px; /* Add padding for better spacing */
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+
+}
+.in{
+    background-image: linear-gradient(120deg,rgb(101, 24, 37),black);
+width: 220px;
+height: 30px;
+color: white;
+font-size: larger;
+display: flex;
+justify-content: center;
+position: relative;
+bottom: 4px;
+}
+.card1{
+    padding:40px 40px;
+    
+}
+.gate{
+    padding-left: 700px;
+    position: relative;
+    bottom: 20px;
+}
+.cards{
+    display: flex;
+    gap:300px;
+  position: relative;
+  bottom:10px;
+}
+.bta{
+    font-size: 40px;
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+}
+.btn{
+    padding-top: 10px;
+    
+}
+.ek{
+    position: relative;
+    right: 250px;
+    padding: 15px 60px;
+    border-radius: 8px;
+   background-image: linear-gradient(120deg,rgb(101, 24, 37),black);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.do{
+    position: relative;
+    right: 55px;
+    padding: 15px 60px;
+    border-radius: 8px;
+    background-image: linear-gradient(120deg,rgb(101, 24, 37),black);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.card1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
